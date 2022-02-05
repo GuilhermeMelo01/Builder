@@ -10,4 +10,6 @@ No padrão Builder iremos quebrar o processo de criação do objeto em etapas, e
 
 Esse componentes serão chamados builders, que são os itens para construir o objeto complexo.
 
-A sequencia da construção, será guiada por um Diretor, que recebe quais os metodos 
+A sequencia da construção, será guiada por um Diretor, que recebe quais os metodos ele precisa, e sempre que solicitado, dispara a sequência para os builders, que irão construir o objeto.
+
+Assim, temos uma biblioteca de componentes e ferramentas, que são acessadas pelo diretor quando provocado a construir algum modelo  pré-estabelecido por meio de uma interface.
